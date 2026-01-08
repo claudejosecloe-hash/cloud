@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        IMAGE_NAME = "tondockerhubusername/dictionnaire-app"
+        IMAGE_NAME = "itt3ir/dictionnaire-app"
         IMAGE_TAG = "latest"
     }
 
