@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
+        DOCKERHUB_CREDENTIALS = credentials('cloedockerhub')
         IMAGE_NAME = "itt3ir/dictionnaire-app"
         IMAGE_TAG = "latest"
     }
